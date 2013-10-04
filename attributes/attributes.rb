@@ -3,8 +3,21 @@
 # Attributes:: default
 # 
 #
-default[:vertx][:version]    = '2.1.0'
 default[:vertx][:home]       = '/usr/local/vertx'
-default[:vertx][:url]        = 'https://github.com/artdaw/packages/raw/master/vert.x/vert.x-'
+default[:vertx][:flavor]	 = '2'
+default[:vertx][:url]		 = nil
+
+case node[:vertx][:flavor]
+
+# vertx 1.x
+when '1'
+default[:vertx]['1'][:version]    = '1.3.1'
+default[:vertx]['1'][:url]        = 'http://vertx.io/vertx-downloads/downloads/vert.x-'
+
+# vertx 2.x
+when '2'
+default[:vertx]['2'][:version]    = '2.0.1'
+default[:vertx]['2'][:url]        = 'http://dl.bintray.com/vertx/downloads/vert.x-'
+end
 
 
