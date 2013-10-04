@@ -1,6 +1,6 @@
 name             "vertx"
-maintainer       "Ryley Gahagan"
-maintainer_email "rgahagan@bloomhealthco.com"
+maintainer       "Gleb Galkin"
+maintainer_email "artdaw@gmail.com"
 license          "Apache 2.0"
 description      "Installs/Configures vertx"
 long_description "Installs/Configures vertx"

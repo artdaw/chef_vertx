@@ -2,8 +2,8 @@
   "name": "vertx",
   "description": "Vertx setup",
   "long_description": "",
-  "maintainer": "Bloom Health Co.",
-  "maintainer_email": "rgahagan@bloomhealthco.com",
+  "maintainer": "Gleb Galkin",
+  "maintainer_email": "artdaw@gmail.com",
   "license": "Apache 2.0",
   "platforms": {
     "fedora": ">= 0.0.0",
