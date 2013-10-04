@@ -7,4 +7,4 @@
 #
 default[:vertx][:version]    = '2.1.0'
 default[:vertx][:home]       = '/usr/local/vertx'
-default[:vertx][:url]        = 'https://github.com/artdaw/chef_vertx/downloads/vert.x-'
+default[:vertx][:url]        = 'https://github.com/artdaw/packages/blob/master/vert.x/vert.x-'
