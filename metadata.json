@@ -1,7 +1,6 @@
 {
   "name": "vertx",
-  "description": "Vertx setup",
-  "long_description": "",
+  "description": "Installs Vert.x",
   "maintainer": "Gleb Galkin",
   "maintainer_email": "artdaw@gmail.com",
   "license": "Apache 2.0",

@@ -2,7 +2,7 @@
 # Cookbook Name:: vertx 
 # Attributes:: default
 # 
-#
+
 default[:vertx][:home]       = '/usr/local/vertx'
 default[:vertx][:flavor]	 = '2'
 default[:vertx][:url]		 = nil
